@@ -1,21 +1,19 @@
 package controller;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import model.Cards.*;
 import model.CardPile.CardPile;
 import model.CardPile.DealCardPile;
 import model.CardPile.messageCardPile;
 import model.Cards.AdvertisementCard;
 import model.Cards.BillCard;
 import model.Cards.CharityCard;
+import model.Cards.DealCard;
 import model.Cards.GetMoneyFromNeigh;
 import model.Cards.PayTheNeigh;
 import model.Cards.moveToBuyerOrDeal;
@@ -28,12 +26,10 @@ import model.Position.LotteryPos;
 import model.Position.PayDayPos;
 import model.Position.Position;
 import model.Position.RadioPos;
-import model.Position.messagePos;
-import model.Cards.DealCard;
 import model.Position.StartPos;
 import model.Position.SweepstakesPos;
 import model.Position.YardSalePos;
-import view.month;
+import model.Position.messagePos;
 
 
 public class Controller {
